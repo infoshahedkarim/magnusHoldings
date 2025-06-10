@@ -657,7 +657,7 @@ $title='Magpie';
   </div>
 
   <p class="text-sm md:text-15px lg:text-base text-secondary-color">
-    <span class="leading-1.8 mb-5px" style="color: white;">Any question you have </span>
+    <span class="leading-1.8 mb-5px" style="color: white;">- Any question you have -</span>
   </p>
   <h4
     class="text-xl sm:text-3xl md:text-40px lg:text-50px xl:text-[56px] 3xl:text-6xl 4xl:text-7xl text-white font-bold mb-10">
