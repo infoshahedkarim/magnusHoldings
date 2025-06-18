@@ -9,185 +9,167 @@ $title='Magpie';
 
 <!-- banner section -->
 <section>
-        <!-- banner section -->
-        <div class="hero hero-primary overflow-hidden relative z-0">
-          <!-- Swiper -->
-          <div class="hero-slider-container swiper-container relative">
-            <div class="home-3">
-              <div>
-                <!-- Hero  1 -->
+  <!-- banner section -->
+  <div class="hero hero-primary overflow-hidden relative z-0">
+    <!-- Swiper -->
+    <div class="hero-slider-container swiper-container relative">
+      <div class="home-3">
+        <div>
+          <!-- Hero  1 -->
+          <div
+            class="relative z-0 pt-300px md:pt-50 pb-50px 4xl:h-screen 4xl:min-h-[800px] overflow-hidden flex flex-col justify-center bg-cover bg-center bg-no-repeat]"
+            id="hero-slider">
+            <!-- overlay -->
+            <div
+              class="absolute top-0 left-0 w-full h-full bg-overlay z-20"></div>
+            <div class="container w-full relative z-xl tab hero-tab">
+              <!-- action -->
+              <div class="tab-links flex gap-x-10px items-center mb-10px">
                 <div
-                  class="relative z-0 pt-300px md:pt-50 pb-50px 4xl:h-screen 4xl:min-h-[800px] overflow-hidden flex flex-col justify-center bg-cover bg-center bg-no-repeat]"
-                  id="hero-slider">
-                  <!-- overlay -->
-                  <div
-                    class="absolute top-0 left-0 w-full h-full bg-overlay z-20"
-                  ></div>
-                  <div class="container w-full relative z-xl tab hero-tab">
-                    <!-- action -->
-                    <div class="tab-links flex gap-x-10px items-center mb-10px">
-                      <div
-                        class="active text-sm lg:text-base text-heading-color relative group whitespace-nowrap transition-all duration-300 bg-section-bg-1 inline-block font-bold"
-                      >
-                        <button
-                          class="relative z-10 px-25px lg:px-10 py-15px whitespace-normal leading-1.8 lg:leading-1.8 uppercase"
-                        >
-                          <i class="fas fa-home mr-10px"></i> Buy Home
-                        </button>
+                  class="active text-sm lg:text-base text-heading-color relative group whitespace-nowrap transition-all duration-300 bg-section-bg-1 inline-block font-bold">
+                  <button
+                    class="relative z-10 px-25px lg:px-10 py-15px whitespace-normal leading-1.8 lg:leading-1.8 uppercase">
+                    <i class="fas fa-home mr-10px"></i> Buy Home
+                  </button>
+                </div>
+                <div
+                  class="text-sm lg:text-base text-heading-color relative group whitespace-nowrap transition-all duration-300 bg-section-bg-1 inline-block font-bold">
+                  <button
+                    class="relative z-10 px-25px lg:px-10 py-15px whitespace-normal leading-1.8 lg:leading-1.8 uppercase">
+                    <i class="fas fa-home mr-10px"></i> Sale Home
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-contents py-10 px-25px md:p-10 shadow-box-shadow-1 border border-border-color-1 bg-section-bg-1">
+                <!-- inputs -->
+                <div class="transition-all duration-200">
+                  <form class="hero-form">
+                    <div
+                      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-30px">
+                      <div>
+                        <select class="selectize apartment-select">
+                          <option value="Apartment" data-display="Select">
+                            Apartment
+                          </option>
+                          <option value="Property Type">
+                            Property Type
+                          </option>
+                          <option value="Co-op">Co-op</option>
+                          <option value="Condo">Condo</option>
+                          <option value="Single Family Home">
+                            Single Family Home
+                          </option>
+                        </select>
                       </div>
+                      <div>
+                        <select class="selectize location-select">
+                          <option data-display="Select">Location</option>
+                          <option>Dhaka, Mirpur</option>
+                          <option>Dhaka, Uttora</option>
+                          <option>Dhaka, Banani</option>
+                          <option>Dhaka, Mohammadpur</option>
+                          <option>Dhaka, Rampura</option>
+                        </select>
+                      </div>
+                      <!-- <div>
+                              <select class="selectize sub-location-select">
+                                <option data-display="Select">
+                                  Sub Location
+                                </option>
+                                <option>Bayonne</option>
+                                <option>Greenville</option>
+                                <option>Manhattan</option>
+                                <option>Queens</option>
+                                <option>The Heights</option>
+                                <option>Upper East Side</option>
+                                <option>West Side</option>
+                              </select>
+                            </div> -->
+                      <div>
+                        <select class="selectize bedrooms-select">
+                          <option data-display="Select">Bedrooms</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                      <!-- min size  -->
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="Min size (in sqft)"
+                          class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50">
+                      </div>
+                      <!-- max size  -->
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="max size (in sqft)"
+                          class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50">
+                      </div>
+                    </div>
+                    <div>
+                      <!-- .range -->
                       <div
-                        class="text-sm lg:text-base text-heading-color relative group whitespace-nowrap transition-all duration-300 bg-section-bg-1 inline-block font-bold"
-                      >
-                        <button
-                          class="relative z-10 px-25px lg:px-10 py-15px whitespace-normal leading-1.8 lg:leading-1.8 uppercase"
-                        >
-                          <i class="fas fa-home mr-10px"></i> Sale Home
-                        </button>
+                        class="car-price-filter-range mt-30px mb-5 lg:mb-10">
+                        <div class="price_filter">
+                          <div class="price_slider_amount">
+                            <input type="submit" value="Your range:">
+                            <input
+                              type="text"
+                              class="amount"
+                              name="price"
+                              placeholder="Add Your Price">
+                          </div>
+                          <div class="slider-range"></div>
+                        </div>
                       </div>
                     </div>
                     <div
-                      class="tab-contents py-10 px-25px md:p-10 shadow-box-shadow-1 border border-border-color-1 bg-section-bg-1"
-                    >
-                      <!-- inputs -->
-                      <div class="transition-all duration-200">
-                        <form class="hero-form">
-                          <div
-                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-30px"
-                          >
-                            <div>
-                              <select class="selectize apartment-select">
-                                <option value="Apartment" data-display="Select">
-                                  Apartment
-                                </option>
-                                <option value="Property Type">
-                                  Property Type
-                                </option>
-                                <option value="Co-op">Co-op</option>
-                                <option value="Condo">Condo</option>
-                                <option value="Single Family Home">
-                                  Single Family Home
-                                </option>
-                              </select>
-                            </div>
-                            <div>
-                              <select class="selectize location-select">
-                                <option data-display="Select">Location</option>
-                                <option>Dhaka, Mirpur</option>
-                                <option>Dhaka, Uttora</option>
-                                <option>Dhaka, Banani</option>
-                                <option>Dhaka, Mohammadpur</option>
-                                <option>Dhaka, Rampura</option>
-                              </select>
-                            </div>
-                            <!-- <div>
-                              <select class="selectize sub-location-select">
-                                <option data-display="Select">
-                                  Sub Location
-                                </option>
-                                <option>Bayonne</option>
-                                <option>Greenville</option>
-                                <option>Manhattan</option>
-                                <option>Queens</option>
-                                <option>The Heights</option>
-                                <option>Upper East Side</option>
-                                <option>West Side</option>
-                              </select>
-                            </div> -->
-                            <div>
-                              <select class="selectize bedrooms-select">
-                                <option data-display="Select">Bedrooms</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                              </select>
-                            </div>
-                            <!-- min size  -->
-                            <div>
-                              <input
-                                type="text"
-                                placeholder="Min size (in sqft)"
-                                class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50"
-                              >
-                            </div>
-                            <!-- max size  -->
-                            <div>
-                              <input
-                                type="text"
-                                placeholder="max size (in sqft)"
-                                class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50"
-                              >
-                            </div>
-                          </div>
-                          <div>
-                            <!-- .range -->
-                            <div
-                              class="car-price-filter-range mt-30px mb-5 lg:mb-10"
-                            >
-                              <div class="price_filter">
-                                <div class="price_slider_amount">
-                                  <input type="submit" value="Your range:" >
-                                  <input
-                                    type="text"
-                                    class="amount"
-                                    name="price"
-                                    placeholder="Add Your Price"
-                                  >
-                                </div>
-                                <div class="slider-range"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="text-center md:col-start-1 md:col-span-2 lg:col-span-3 flex justify-center items-center"
-                          >
-                            <h5
-                              class="uppercase text-sm md:text-base text-white relative group whitespace-nowrap font-normal mb-0 transition-all duration-300 border border-secondary-color hover:border-heading-color inline-block"
-                            >
-                              <span
-                                class="inline-block absolute top-0 right-0 w-full h-full bg-secondary-color group-hover:bg-black hover:bg-primary-cogroup-lor z-1 group-hover:w-0 transition-all duration-300"
-                              ></span>
-                              <a
-                                href="{{route ('project.all') }}"
-                                class="relative z-1 px-5 md:px-25px lg:px-10 py-10px md:py-3 lg:py-17px group-hover:text-heading-color leading-23px"
-                                >Search Inventory</a
-                              >
-                            </h5>
-                          </div>
-                        </form>
+                      class="text-center md:col-start-1 md:col-span-2 lg:col-span-3 flex justify-center items-center">
+                      <h5
+                        class="uppercase text-sm md:text-base text-white relative group whitespace-nowrap font-normal mb-0 transition-all duration-300 border border-secondary-color hover:border-heading-color inline-block">
+                        <span
+                          class="inline-block absolute top-0 right-0 w-full h-full bg-secondary-color group-hover:bg-black hover:bg-primary-cogroup-lor z-1 group-hover:w-0 transition-all duration-300"></span>
+                        <a
+                          href="{{route ('project.all') }}"
+                          class="relative z-1 px-5 md:px-25px lg:px-10 py-10px md:py-3 lg:py-17px group-hover:text-heading-color leading-23px">Search Inventory</a>
+                      </h5>
+                    </div>
+                  </form>
+                </div>
+                <div class="hidden transition-all duration-200">
+                  <form class="hero-form">
+                    <div
+                      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-30px">
+                      <div>
+                        <select class="selectize apartment-select">
+                          <option
+                            value="Property Type"
+                            data-display="Select">
+                            Property Type
+                          </option>
+                          <option value="Apartment">Apartment</option>
+                          <option value="Co-op">Co-op</option>
+                          <option value="Condo">Condo</option>
+                          <option value="Single Family Home">
+                            Single Family Home
+                          </option>
+                        </select>
                       </div>
-                      <div class="hidden transition-all duration-200">
-                        <form class="hero-form">
-                          <div
-                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-30px"
-                          >
-                            <div>
-                              <select class="selectize apartment-select">
-                                <option
-                                  value="Property Type"
-                                  data-display="Select"
-                                >
-                                  Property Type
-                                </option>
-                                <option value="Apartment">Apartment</option>
-                                <option value="Co-op">Co-op</option>
-                                <option value="Condo">Condo</option>
-                                <option value="Single Family Home">
-                                  Single Family Home
-                                </option>
-                              </select>
-                            </div>
-                            <div>
-                              <select class="selectize location-select">
-                                <option data-display="Select">Location</option>
-                                <option>Dhaka, Mirpur</option>
-                                <option>Dhaka, Uttora</option>
-                                <option>Dhaka, Banani</option>
-                                <option>Dhaka, Mohammadpur</option>
-                                <option>Dhaka, Rampura</option>
-                              </select>
-                            </div>
-                            <!-- <div>
+                      <div>
+                        <select class="selectize location-select">
+                          <option data-display="Select">Location</option>
+                          <option>Dhaka, Mirpur</option>
+                          <option>Dhaka, Uttora</option>
+                          <option>Dhaka, Banani</option>
+                          <option>Dhaka, Mohammadpur</option>
+                          <option>Dhaka, Rampura</option>
+                        </select>
+                      </div>
+                      <!-- <div>
                               <select class="selectize sub-location-select">
                                 <option data-display="Select">
                                   Sub Location
@@ -201,85 +183,76 @@ $title='Magpie';
                                 <option>West Side</option>
                               </select>
                             </div> -->
-                            <div>
-                              <select class="selectize bedrooms-select">
-                                <option data-display="Select">Bedrooms</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                              </select>
-                            </div>
-                            <!-- min size  -->
-                            <div>
-                              <input
-                                type="text"
-                                placeholder="Min size (in sqft)"
-                                class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50"
-                              >
-                            </div>
-                            <!-- max size  -->
-                            <div>
-                              <input
-                                type="text"
-                                placeholder="max size (in sqft)"
-                                class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50"
-                              >
-                            </div>
-                          </div>
-                          <div>
-                            <!-- .range -->
-                            <div
-                              class="car-price-filter-range mt-30px mb-5 lg:mb-10"
-                            >
-                              <div class="price_filter">
-                                <div class="price_slider_amount">
-                                  <input type="submit" value="Your range:" >
-                                  <input
-                                    type="text"
-                                    class="amount"
-                                    name="price"
-                                    placeholder="Add Your Price"
-                                  >
-                                </div>
-                                <div class="slider-range"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="text-center md:col-start-1 md:col-span-2 lg:col-span-3 flex justify-center items-center"
-                          >
-                            <h5
-                              class="uppercase text-sm md:text-base text-white relative group whitespace-nowrap font-normal mb-0 transition-all duration-300 border border-secondary-color hover:border-heading-color inline-block"
-                            >
-                              <span
-                                class="inline-block absolute top-0 right-0 w-full h-full bg-secondary-color group-hover:bg-black hover:bg-primary-cogroup-lor z-1 group-hover:w-0 transition-all duration-300"
-                              ></span>
-                              <a
-                                href="{{route ('project.all') }}"
-                                class="relative z-1 px-5 md:px-25px lg:px-10 py-10px md:py-3 lg:py-17px group-hover:text-heading-color leading-23px"
-                                >Search Inventory</a
-                              >
-                            </h5>
-                          </div>
-                        </form>
+                      <div>
+                        <select class="selectize bedrooms-select">
+                          <option data-display="Select">Bedrooms</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                      <!-- min size  -->
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="Min size (in sqft)"
+                          class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50">
+                      </div>
+                      <!-- max size  -->
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="max size (in sqft)"
+                          class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50">
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="hidden">
-                <div class="swiper-button-next !text-white">
-                  <i class="fas fa-arrow-right" ></i>
-                </div>
-                <div class="swiper-button-prev !text-white">
-                  <i class="fas fa-arrow-left" ></i>
+                    <div>
+                      <!-- .range -->
+                      <div
+                        class="car-price-filter-range mt-30px mb-5 lg:mb-10">
+                        <div class="price_filter">
+                          <div class="price_slider_amount">
+                            <input type="submit" value="Your range:">
+                            <input
+                              type="text"
+                              class="amount"
+                              name="price"
+                              placeholder="Add Your Price">
+                          </div>
+                          <div class="slider-range"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="text-center md:col-start-1 md:col-span-2 lg:col-span-3 flex justify-center items-center">
+                      <h5
+                        class="uppercase text-sm md:text-base text-white relative group whitespace-nowrap font-normal mb-0 transition-all duration-300 border border-secondary-color hover:border-heading-color inline-block">
+                        <span
+                          class="inline-block absolute top-0 right-0 w-full h-full bg-secondary-color group-hover:bg-black hover:bg-primary-cogroup-lor z-1 group-hover:w-0 transition-all duration-300"></span>
+                        <a
+                          href="{{route ('project.all') }}"
+                          class="relative z-1 px-5 md:px-25px lg:px-10 py-10px md:py-3 lg:py-17px group-hover:text-heading-color leading-23px">Search Inventory</a>
+                      </h5>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+        <div class="hidden">
+          <div class="swiper-button-next !text-white">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+          <div class="swiper-button-prev !text-white">
+            <i class="fas fa-arrow-left"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- latest appartments  section -->
 
@@ -691,11 +664,11 @@ $title='Magpie';
     <div class="text-center mb-50px">
       <p
         class="text-sm md:text-15px lg:text-base text-secondary-color bg-secondary-color bg-opacity-10 capitalize 1b-15px py-0.5 px-5 rounded-full inline-block font-semibold mb-5">
-        <span class="leading-1.3">Features</span>
+        <span class="leading-1.3">Building with Pride, Delivering with Promise.</span>
       </p>
       <h2
         class="text-2xl sm:text-3xl md:text-26px lg:text-3xl xl:text-44px text-heading-color font-bold">
-        <span class="leading-1.3">Core Features </span>
+        <span class="leading-1.3">Core Values </span>
       </h2>
     </div>
     <!-- services cards  -->
@@ -703,7 +676,7 @@ $title='Magpie';
     <div class="service-cards flex flex-wrap justify-center items-center">
       <!-- card 1 -->
       <div
-        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/4 px-15px lg:px-0 mb-30px">
+        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/3 px-15px lg:px-0 mb-30px">
         <div
           class="border border-border-color-8 relative py-10 pb-35px px-30px transition-all duration-300">
           <div class="mb-15px text-6xl text-secondary-color">
@@ -713,11 +686,11 @@ $title='Magpie';
             class="text-17px md:text-lg lg:text-xl text-heading-color font-bold mb-15px">
             <a
               class="hover:text-secondary-color leading-1.3"
-              href="{{route ('project.all') }}">Smart living</a>
+              href="{{route ('project.all') }}">Integrity & Transparency</a>
           </h6>
           <p class="text-sm">
-            <span class="leading-1.8">Lorem ipsum dolor sit ame it, consectetur adipisicing elit,
-              sed do eiusmod te mp or incididunt ut labore</span>
+            <span class="leading-1.8">We operate with honesty, fairness, and openness in
+              all our dealings. Trust is the cornerstone of our relationships with customers, partners, and employees.</span>
           </p>
 
           <span
@@ -727,7 +700,7 @@ $title='Magpie';
 
       <!-- card 2 -->
       <div
-        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/4 px-15px lg:px-0 mb-30px active">
+        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/3 px-15px lg:px-0 mb-30px active">
         <div
           class="border border-border-color-8 relative py-10 pb-35px px-30px transition-all duration-300">
           <div class="mb-15px text-6xl text-secondary-color">
@@ -737,11 +710,11 @@ $title='Magpie';
             class="text-17px md:text-lg lg:text-xl text-heading-color font-bold mb-15px">
             <a
               class="hover:text-secondary-color leading-1.3"
-              href="{{route ('project.all') }}">ECO Construction</a>
+              href="{{route ('project.all') }}">Customer-Centric Excellence</a>
           </h6>
           <p class="text-sm">
-            <span class="leading-1.8">Lorem ipsum dolor sit ame it, consectetur adipisicing elit,
-              sed do eiusmod te mp or incididunt ut labore</span>
+            <span class="leading-1.8">Our customers are at the heart of everything we do.
+              We strive to exceed expectations by delivering superior quality, innovative designs, and unmatched service.</span>
           </p>
 
           <span
@@ -751,7 +724,7 @@ $title='Magpie';
 
       <!-- card 3 -->
       <div
-        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/4 px-15px lg:px-0 mb-30px">
+        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/3 px-15px lg:px-0 mb-30px">
         <div
           class="border border-border-color-8 relative py-10 pb-35px px-30px transition-all duration-300">
           <div class="mb-15px text-6xl text-secondary-color">
@@ -761,11 +734,11 @@ $title='Magpie';
             class="text-17px md:text-lg lg:text-xl text-heading-color font-bold mb-15px">
             <a
               class="hover:text-secondary-color leading-1.3"
-              href="{{route ('project.all') }}">Atractive Location</a>
+              href="{{route ('project.all') }}">Innovation & Sustainability</a>
           </h6>
           <p class="text-sm">
-            <span class="leading-1.8">Lorem ipsum dolor sit ame it, consectetur adipisicing elit,
-              sed do eiusmod te mp or incididunt ut labore</span>
+            <span class="leading-1.8">We embrace forward-thinking solutions to create modern,
+              eco-friendly, and sustainable living spaces that stand the test of time.</span>
           </p>
 
           <span
@@ -775,7 +748,7 @@ $title='Magpie';
 
       <!-- card 4 -->
       <div
-        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/4 px-15px lg:px-0 mb-30px">
+        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/3 px-15px lg:px-0 mb-30px">
         <div
           class="border border-border-color-8 relative py-10 pb-35px px-30px transition-all duration-300">
           <div class="mb-15px text-6xl text-secondary-color">
@@ -785,17 +758,67 @@ $title='Magpie';
             class="text-17px md:text-lg lg:text-xl text-heading-color font-bold mb-15px">
             <a
               class="hover:text-secondary-color leading-1.3"
-              href="{{route ('project.all') }}">Modern Technology</a>
+              href="{{route ('project.all') }}">Commitment to Quality</a>
           </h6>
           <p class="text-sm">
-            <span class="leading-1.8">Lorem ipsum dolor sit ame it, consectetur adipisicing elit,
-              sed do eiusmod te mp or incididunt ut labore</span>
+            <span class="leading-1.8">From design to delivery, we uphold the highest standards of craftsmanship,
+              ensuring durability, safety, and aesthetic brilliance in every project.</span>
           </p>
 
           <span
             class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
         </div>
       </div>
+
+      <!-- card 5 -->
+      <div
+        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/3 px-15px lg:px-0 mb-30px active">
+        <div
+          class="border border-border-color-8 relative py-10 pb-35px px-30px transition-all duration-300">
+          <div class="mb-15px text-6xl text-secondary-color">
+            <i class="flaticon-park"></i>
+          </div>
+          <h6
+            class="text-17px md:text-lg lg:text-xl text-heading-color font-bold mb-15px">
+            <a
+              class="hover:text-secondary-color leading-1.3"
+              href="{{route ('project.all') }}">Social Responsibility</a>
+          </h6>
+          <p class="text-sm">
+            <span class="leading-1.8">We believe in giving back to the community and contributing to Bangladesh’s development
+              by promoting ethical business practices and sustainable urban growth.</span>
+          </p>
+
+          <span
+            class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
+        </div>
+      </div>
+
+      <!-- card 1 -->
+      <div
+        class="service-card service-card-2 basis-full sm:basis-1/2 lg:basis-1/3 px-15px lg:px-0 mb-30px">
+        <div
+          class="border border-border-color-8 relative py-10 pb-35px px-30px transition-all duration-300">
+          <div class="mb-15px text-6xl text-secondary-color">
+            <i class="flaticon-apartment"></i>
+          </div>
+          <h6
+            class="text-17px md:text-lg lg:text-xl text-heading-color font-bold mb-15px">
+            <a
+              class="hover:text-secondary-color leading-1.3"
+              href="{{route ('project.all') }}">Teamwork & Expertise</a>
+          </h6>
+          <p class="text-sm">
+            <span class="leading-1.8">Our strength lies in our skilled professionals, who collaborate with passion,
+              dedication, and a shared vision to build a better future.</span>
+          </p>
+
+          <span
+            class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </section>
@@ -809,11 +832,11 @@ $title='Magpie';
     <div class="text-center mb-50px">
       <p
         class="text-sm md:text-15px lg:text-base text-secondary-color bg-secondary-color bg-opacity-10 capitalize 1b-15px py-0.5 px-5 mb-15px rounded-full inline-block font-semibold">
-        <span class="leading-1.3">Our Services</span>
+        <span class="leading-1.3">Why Choose Magnus Holdings Ltd.?</span>
       </p>
       <h2
         class="text-2xl sm:text-3xl md:text-26px lg:text-3xl xl:text-44px text-heading-color font-bold">
-        <span class="leading-1.3"> Our Main Focus </span>
+        <span class="leading-1.3">Magnus Holdings Ltd. – Where Visions Become Addresses.</span>
       </h2>
     </div>
     <!-- services cards  -->
@@ -835,18 +858,12 @@ $title='Magpie';
             class="text-lg md:text-xl lg:text-22px xl:text-2xl text-heading-color font-bold">
             <a
               class="hover:text-secondary-color leading-1.3 mb-1"
-              href="{{route ('project.all') }}">Make Homes</a>
+              href="{{route ('project.all') }}">Unmatched Expertise</a>
           </h6>
           <p class="text-sm mb-25px">
-            <span class="leading-1.8">over 1 million+ homes for sale available on the website, we
-              can match you with a house you will want to call home.</span>
+            <span class="leading-1.8">Founded by seasoned professionals with decades of experience in Bangladesh’s
+              real estate sector, we bring knowledge, precision, and innovation to every project.</span>
           </p>
-          <div class="text-sm text-color-1 font-bold">
-            <a
-              class="find-service hover:text-secondary-color flex items-center justify-center"
-              href="{{route ('project.all') }}">Find A Home
-              <i class="flaticon-right-arrow inline-block leading-1"></i></a>
-          </div>
           <span
             class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
         </div>
@@ -866,18 +883,12 @@ $title='Magpie';
             class="text-lg md:text-xl lg:text-22px xl:text-2xl text-heading-color font-bold">
             <a
               class="hover:text-secondary-color leading-1.3 mb-1"
-              href="{{route ('project.all') }}">Buy Lands</a>
+              href="{{route ('project.all') }}">Commitment to Quality</a>
           </h6>
           <p class="text-sm mb-25px">
-            <span class="leading-1.8">over 1 million+ homes for sale available on the website, we
-              can match you with a house you will want to call home.</span>
+            <span class="leading-1.8">From premium construction materials to rigorous quality checks,
+              we ensure every detail meets the highest standards—because your home deserves nothing less.</span>
           </p>
-          <div class="text-sm text-color-1 font-bold">
-            <a
-              class="find-service hover:text-secondary-color flex items-center justify-center"
-              href="{{route ('project.all') }}">Find A Home
-              <i class="flaticon-right-arrow inline-block leading-1"></i></a>
-          </div>
           <span
             class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
         </div>
@@ -897,29 +908,97 @@ $title='Magpie';
             class="text-lg md:text-xl lg:text-22px xl:text-2xl text-heading-color font-bold">
             <a
               class="hover:text-secondary-color leading-1.3 mb-1"
-              href="{{route ('project.all') }}">Sell Homes</a>
+              href="{{route ('project.all') }}">Customer-Centric Approach</a>
           </h6>
           <p class="text-sm mb-25px">
-            <span class="leading-1.8">over 1 million+ homes for sale available on the website, we
-              can match you with a house you will want to call home.</span>
+            <span class="leading-1.8">Your vision is our blueprint. We prioritize transparency,
+              timely delivery, and personalized service to make your property journey seamless and satisfying.</span>
           </p>
-          <div class="text-sm text-color-1 font-bold">
-            <a
-              class="find-service hover:text-secondary-color flex items-center justify-center"
-              href="{{route ('project.all') }}">Find A Home
-              <i class="flaticon-right-arrow inline-block leading-1"></i></a>
-          </div>
           <span
             class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
         </div>
       </div>
+      <!-- card 4 -->
+      <div
+        class="service-card basis-full sm:basis-1/2 lg:basis-1/3 px-15px mb-30px">
+        <div
+          class="border border-border-color-1 shadow-box-shadow-1 bg-white relative py-10 pb-35px px-30px transition-all duration-300">
+          <div class="text-center mb-5">
+            <img
+              src="./assets/img/icons/icon-img/21.png"
+              alt=""
+              class="inline-block">
+          </div>
+          <h6
+            class="text-lg md:text-xl lg:text-22px xl:text-2xl text-heading-color font-bold">
+            <a
+              class="hover:text-secondary-color leading-1.3 mb-1"
+              href="{{route ('project.all') }}">Innovative & Sustainable Designs</a>
+          </h6>
+          <p class="text-sm mb-25px">
+            <span class="leading-1.8">We blend modern architecture, smart living solutions, and
+              eco-friendly practices to create spaces that are as sustainable as they are stunning.</span>
+          </p>
+          <span
+            class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div
+        class="service-card active basis-full sm:basis-1/2 lg:basis-1/3 px-15px mb-30px">
+        <div
+          class="border border-border-color-1 shadow-box-shadow-1 bg-white relative py-10 pb-35px px-30px transition-all duration-300">
+          <div class="text-center mb-5">
+            <img
+              src="./assets/img/icons/icon-img/22.png"
+              alt=""
+              class="inline-block">
+          </div>
+          <h6
+            class="text-lg md:text-xl lg:text-22px xl:text-2xl text-heading-color font-bold">
+            <a
+              class="hover:text-secondary-color leading-1.3 mb-1"
+              href="{{route ('project.all') }}">Trust & Transparency</a>
+          </h6>
+          <p class="text-sm mb-25px">
+            <span class="leading-1.8">No hidden terms, no compromises. We maintain ethical business practices, clear documentation, and honest communication at every step.</span>
+          </p>
+          <span
+            class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div
+        class="service-card basis-full sm:basis-1/2 lg:basis-1/3 px-15px mb-30px">
+        <div
+          class="border border-border-color-1 shadow-box-shadow-1 bg-white relative py-10 pb-35px px-30px transition-all duration-300">
+          <div class="text-center mb-5">
+            <img
+              src="./assets/img/icons/icon-img/23.png"
+              alt=""
+              class="inline-block">
+          </div>
+          <h6
+            class="text-lg md:text-xl lg:text-22px xl:text-2xl text-heading-color font-bold">
+            <a
+              class="hover:text-secondary-color leading-1.3 mb-1"
+              href="{{route ('project.all') }}">Strategic Locations</a>
+          </h6>
+          <p class="text-sm mb-25px">
+            <span class="leading-1.8">Our projects are carefully positioned in high-growth areas, ensuring strong investment potential and an enhanced lifestyle.</span>
+          </p>
+          <span
+            class="hover-line absolute bottom-0 left-0 w-0 h-1 bg-secondary-color transition-all duration-300 block"></span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 <!-- featured appartments  section -->
-<section>
+<!-- <section>
   <div class="container-3 pt-115px pb-[75px] modal-container">
-    <!-- section heading -->
+    
     <div class="text-center mb-50px">
       <p
         class="text-sm md:text-15px lg:text-base text-secondary-color bg-secondary-color bg-opacity-10 capitalize 1b-15px py-0.5 px-5 mb-15px rounded-full inline-block font-semibold">
@@ -931,16 +1010,16 @@ $title='Magpie';
       </h2>
     </div>
     <div class="featured-apartments swiper-container relative">
-      <!-- apartment cards  -->
+      
       <div class="swiper featured-apartments-slider static">
         <div class="swiper-wrapper">
 
           @foreach ($projects as $project)
-          <!-- card 1 -->
+          
           <div class="swiper-slide mb-65px px-15px">
             <div
               class="group border border-border-color-13 shadow-box-shadow-4">
-              <!-- card thumbs -->
+              
               <div class="relative leading-1">
                 <a
                   href="{{route ('project.show', $project->slug)}}"
@@ -977,7 +1056,7 @@ $title='Magpie';
                   <span class="leading-5 sm:leading-25px block">{{$project->place}}</span>
                 </div>
               </div>
-              <!-- card body -->
+              
               <div class="px-5 pt-4 lg:px-30px lg:pt-5">
                 <h5
                   class="text-lg text-secondary-color font-semibold mb-5px">
@@ -995,7 +1074,7 @@ $title='Magpie';
                 </p>
 
                 <ul class="flex flex-wrap gap-15px py-4">
-                  
+
                   <li class="text-sm">
                     <p class="leading-1.8 font-bold">
                       {{$project->squareft}}<i
@@ -1005,7 +1084,7 @@ $title='Magpie';
                   </li>
                 </ul>
               </div>
-              <!-- cart footer -->
+              
               <div
                 class="p-5 lg:p-30px lg:pt-5 border-t border-border-color-1">
                 <div
@@ -1037,10 +1116,10 @@ $title='Magpie';
             @endforeach
           </div>
 
-       
+
         </div>
 
-        <!-- pagination -->
+        
         <div
           class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal !-bottom-[6px]">
           <span
@@ -1058,7 +1137,7 @@ $title='Magpie';
             role="button"
             aria-label="Go to slide 3"></span>
         </div>
-        <!--  navigation -->
+       
         <div class="hidden 3xl:block">
           <div class="swiper-button-next z-1">
             <i class="fas fa-arrow-right"></i>
@@ -1071,7 +1150,7 @@ $title='Magpie';
     </div>
 
   </div>
-</section>
+</section> -->
 
 
 <!-- counter section -->
