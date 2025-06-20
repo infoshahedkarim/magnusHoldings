@@ -8421,7 +8421,7 @@ input[type="range"]::-ms-thumb {
 
   .custom-swiper {
     width: 100%;
-    height: 720px; /* Set desired height */
+    height: 1080px; /* Set desired height */
     position: relative;
     overflow: hidden;
   }
