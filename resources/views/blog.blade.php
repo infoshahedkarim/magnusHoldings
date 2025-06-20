@@ -2,7 +2,7 @@
 @extends('layout.layout')
 
 @php
-    $title='Magpie | News and Updates';
+    $title='Magnus | News and Updates';
 @endphp
 
 @section('content')

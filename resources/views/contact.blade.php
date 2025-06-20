@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @php
-$title='Magpie | Contact';
+$title='Magnus | Contact';
 @endphp
 
 @section('content')

@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @php
-    $title='Magpie | All Projects';
+    $title='Magnus | All Projects';
 @endphp
 
 @section('content')
