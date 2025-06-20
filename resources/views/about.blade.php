@@ -149,7 +149,7 @@ $title='Magnus | About Us';
               I invite you to join us on this journey as we strive to build not just structures, but legacies—for you, for Bangladesh, and for generations to come.
               With gratitude and commitment,<br> <br>
 
-              <br>Mr. Md. Ahsan Ullah
+              <br><b>Mr. Md. Ahsan Ullah</b>
               <br>Chairman
               <br>Magnus Holdings Ltd.<br>
               "Excellence in Every Brick, Trust in Every Handshake."
@@ -212,7 +212,7 @@ $title='Magnus | About Us';
               <br>Together, let's construct not just buildings, but legacies that stand tall for generations.
               With warm regards,
 
-              <br><br>Mr. Md Aman Ullah Aman
+              <br><br><b>Mr. Md Aman Ullah Aman</b>
               <br>Managing Director
               <br>Magnus Holdings Ltd.<br>
               "Where Your Trust Builds Our Future"
