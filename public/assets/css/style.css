@@ -8419,5 +8419,28 @@ input[type="range"]::-ms-thumb {
 }
 
 
+  .custom-swiper {
+    width: 100%;
+    height: 720px; /* Set desired height */
+    position: relative;
+    overflow: hidden;
+  }
+
+  .custom-swiper .swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+
+  .custom-swiper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white;
+  }
 
 

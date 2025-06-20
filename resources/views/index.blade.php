@@ -9,21 +9,37 @@ $title='Magnus';
 
 <!-- banner section -->
 <section>
-  <!-- banner section -->
-  <div class="hero hero-primary overflow-hidden relative z-0">
-    <!-- Swiper -->
-    <div class="hero-slider-container swiper-container relative">
-      <div class="home-3">
-        <div>
-          <!-- Hero  1 -->
-          <div
-            class="relative z-0 pt-300px md:pt-50 pb-50px 4xl:h-screen 4xl:min-h-[800px] overflow-hidden flex flex-col justify-center bg-cover bg-center bg-no-repeat]"
-            id="hero-slider">
-            <!-- overlay -->
-            <div
-              class="absolute top-0 left-0 w-full h-full bg-overlay z-20"></div>
-            <div class="container w-full relative z-xl tab hero-tab">
-              <!-- action -->
+  <div class="swiper custom-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="{{ asset('storage/' . $homes->image ?? '') }}" alt="Slide 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="{{ asset('storage/' . $homes->image1 ?? '') }}" alt="Slide 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="{{ asset('storage/' . $homes->image2 ?? '') }}" alt="Slide 3">
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- search option -->
+
+ <!-- <div class="container w-full relative z-xl tab hero-tab">
+
               <div class="tab-links flex gap-x-10px items-center mb-10px">
                 <div
                   class="active text-sm lg:text-base text-heading-color relative group whitespace-nowrap transition-all duration-300 bg-section-bg-1 inline-block font-bold">
@@ -42,7 +58,7 @@ $title='Magnus';
               </div>
               <div
                 class="tab-contents py-10 px-25px md:p-10 shadow-box-shadow-1 border border-border-color-1 bg-section-bg-1">
-                <!-- inputs -->
+
                 <div class="transition-all duration-200">
                   <form class="hero-form">
                     <div
@@ -72,20 +88,20 @@ $title='Magnus';
                           <option>Dhaka, Rampura</option>
                         </select>
                       </div>
-                      <!-- <div>
-                              <select class="selectize sub-location-select">
-                                <option data-display="Select">
-                                  Sub Location
-                                </option>
-                                <option>Bayonne</option>
-                                <option>Greenville</option>
-                                <option>Manhattan</option>
-                                <option>Queens</option>
-                                <option>The Heights</option>
-                                <option>Upper East Side</option>
-                                <option>West Side</option>
-                              </select>
-                            </div> -->
+                      <div>
+                        <select class="selectize sub-location-select">
+                          <option data-display="Select">
+                            Sub Location
+                          </option>
+                          <option>Bayonne</option>
+                          <option>Greenville</option>
+                          <option>Manhattan</option>
+                          <option>Queens</option>
+                          <option>The Heights</option>
+                          <option>Upper East Side</option>
+                          <option>West Side</option>
+                        </select>
+                      </div>
                       <div>
                         <select class="selectize bedrooms-select">
                           <option data-display="Select">Bedrooms</option>
@@ -95,14 +111,14 @@ $title='Magnus';
                           <option>4</option>
                         </select>
                       </div>
-                      <!-- min size  -->
+
                       <div>
                         <input
                           type="text"
                           placeholder="Min size (in sqft)"
                           class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50">
                       </div>
-                      <!-- max size  -->
+
                       <div>
                         <input
                           type="text"
@@ -111,7 +127,7 @@ $title='Magnus';
                       </div>
                     </div>
                     <div>
-                      <!-- .range -->
+
                       <div
                         class="car-price-filter-range mt-30px mb-5 lg:mb-10">
                         <div class="price_filter">
@@ -169,20 +185,20 @@ $title='Magnus';
                           <option>Dhaka, Rampura</option>
                         </select>
                       </div>
-                      <!-- <div>
-                              <select class="selectize sub-location-select">
-                                <option data-display="Select">
-                                  Sub Location
-                                </option>
-                                <option>Bayonne</option>
-                                <option>Greenville</option>
-                                <option>Manhattan</option>
-                                <option>Queens</option>
-                                <option>The Heights</option>
-                                <option>Upper East Side</option>
-                                <option>West Side</option>
-                              </select>
-                            </div> -->
+                      <div>
+                        <select class="selectize sub-location-select">
+                          <option data-display="Select">
+                            Sub Location
+                          </option>
+                          <option>Bayonne</option>
+                          <option>Greenville</option>
+                          <option>Manhattan</option>
+                          <option>Queens</option>
+                          <option>The Heights</option>
+                          <option>Upper East Side</option>
+                          <option>West Side</option>
+                        </select>
+                      </div>
                       <div>
                         <select class="selectize bedrooms-select">
                           <option data-display="Select">Bedrooms</option>
@@ -192,14 +208,14 @@ $title='Magnus';
                           <option>4</option>
                         </select>
                       </div>
-                      <!-- min size  -->
+
                       <div>
                         <input
                           type="text"
                           placeholder="Min size (in sqft)"
                           class="text-paragraph-color pl-5 pr-10 placeholder:text-paragraph-color outline-none border-2 border-border-color-9 focus:border focus:border-secondary-color h-65px block w-full rounded-none placeholder:opacity-50">
                       </div>
-                      <!-- max size  -->
+
                       <div>
                         <input
                           type="text"
@@ -208,7 +224,7 @@ $title='Magnus';
                       </div>
                     </div>
                     <div>
-                      <!-- .range -->
+
                       <div
                         class="car-price-filter-range mt-30px mb-5 lg:mb-10">
                         <div class="price_filter">
@@ -238,21 +254,7 @@ $title='Magnus';
                   </form>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="hidden">
-          <div class="swiper-button-next !text-white">
-            <i class="fas fa-arrow-right"></i>
-          </div>
-          <div class="swiper-button-prev !text-white">
-            <i class="fas fa-arrow-left"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+            </div> -->
 
 <!-- latest appartments  section -->
 
@@ -2137,20 +2139,27 @@ $title='Magnus';
 </button>
 
 <script>
-  const images = [
-    "{{ asset('storage/' . $homes->image ?? '') }}",
-    "{{ asset('storage/' . $homes->image1 ?? '') }}",
-    "{{ asset('storage/' . $homes->image2 ?? '') }}"
-  ];
-
-  let currentIndex = 0;
-  const hero = document.getElementById("hero-slider");
-
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % images.length;
-    hero.style.backgroundImage = `url('${images[currentIndex]}')`;
-  }, 4000); // 4 seconds
+  new Swiper(".custom-swiper", {
+    loop: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    speed: 600,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 </script>
+
+
+
+
 
 
 
