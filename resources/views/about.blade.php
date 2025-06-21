@@ -162,7 +162,7 @@ $title='Magnus | About Us';
         <img
           src="{{asset('Ahsan.png')}}"
           alt=""
-          class="max-w-full">
+          style="width:75%;">
         <div
           class="absolute left-[10px] bottom-[70px] w-150px md:w-300px">
         </div>
@@ -177,7 +177,7 @@ $title='Magnus | About Us';
         <img
           src="{{asset('Aman.png')}}"
           alt=""
-          class="max-w-full">
+          style="width:75%;">
         <div
           class="absolute left-[10px] bottom-[70px] w-150px md:w-300px">
         </div>
