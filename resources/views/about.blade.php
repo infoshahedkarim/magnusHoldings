@@ -148,6 +148,7 @@ $title='Magnus | About Us';
               <br>At Magnus Holdings Ltd., integrity and customer trust are at the core of everything we do. We do not compromise on quality, transparency, or ethical practices because we understand that when you invest in us, you are investing in your future.
               I invite you to join us on this journey as we strive to build not just structures, but legacies—for you, for Bangladesh, and for generations to come.
               With gratitude and commitment,<br> <br>
+              
 
               <br><b>Mr. Md. Ahsan Ullah</b>
               <br>Chairman
