@@ -182,12 +182,12 @@
           </div>
 
           <!-- cart footer -->
-          <div class="p-5 lg:px-30px border-t border-border-color-1">
+          <!-- <div class="p-5 lg:px-30px border-t border-border-color-1">
             <h5 class="text-lg text-secondary-color font-semibold mb-5px">
               <span class="leading-1.8">{{ $project->price }}</span>
               <label class="text-sm font-normal">/Month</label>
             </h5>
-          </div>
+          </div> -->
         </div>
       </div>
     @endforeach

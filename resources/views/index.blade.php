@@ -724,7 +724,7 @@
       <div
         class="border border-border-color-1 shadow-box-shadow-1 bg-white relative py-10 pb-35px px-30px transition-all duration-300">
         <div class="text-center mb-5">
-        <img src="/assets/new/Strategic_Locations.png" alt="" width="80" height="80" class="inline-block">
+        <img src="/assets/new/Flexible_Payment_Plans.png" alt="" width="90" height="90" class="inline-block">
         </div>
         <h6 class="text-lg md:text-xl lg:text-22px xl:text-2xl text-heading-color font-bold">
         <a class="hover:text-secondary-color leading-1.3 mb-1" href="{{route('project.all') }}">Flexible Payment
@@ -994,10 +994,10 @@
     <div class="text-center mb-50px">
       <p
       class="text-sm md:text-15px lg:text-base text-secondary-color bg-secondary-color bg-opacity-10 capitalize 1b-15px py-0.5 px-5 mb-15px rounded-full inline-block font-semibold">
-      <span class="leading-1.3">Our Aminities</span>
+      <span class="leading-1.3">Our Amenities</span>
       </p>
       <h2 class="text-2xl sm:text-3xl md:text-26px lg:text-3xl xl:text-44px text-heading-color font-bold">
-      <span class="leading-1.3">Building Aminities </span>
+      <span class="leading-1.3">Building Amenities </span>
       </h2>
     </div>
 
