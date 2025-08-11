@@ -260,7 +260,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div>
               <p class="leading-1.8 text-center lg:text-start text-white">
-                All Rights Reserved @ Magpie Holdings Ltd 2022-2025
+                All Rights Reserved @ Magnus Holdings Ltd 2022-2025
               </p>
             </div>
           </div>
